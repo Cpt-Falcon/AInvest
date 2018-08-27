@@ -23,6 +23,7 @@ namespace AInvest
         public MainWindow()
         {
             InitializeComponent();
+            AlphaVantage vantage = new AlphaVantage();
         }
     }
 }
