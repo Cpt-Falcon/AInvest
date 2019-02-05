@@ -23,6 +23,8 @@ namespace AInvest
         public MainWindow()
         {
             InitializeComponent();
+            StockDatabase db = new StockDatabase();
+            List<string> test = db.GetAllTableNames();
             AlphaVantage vantage = new AlphaVantage();
         }
     }
