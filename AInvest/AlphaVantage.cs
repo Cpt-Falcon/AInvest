@@ -46,5 +46,10 @@ namespace AInvest
             Console.WriteLine(time_series_dailyResponse.RawData);
 
         }
+
+        public void GetAllStockData()
+        {
+
+        }
     }
 }
